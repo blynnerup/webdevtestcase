@@ -1,6 +1,11 @@
 var express = require("express");
 var app = express();
 
+/*
+* Routes ordering matters
+* First route to match a request, triggers and then no other is run!
+*/
+
 // "/" => "Hi there!;
 app.get("/", function(req, res){ //request and response
     res.send("Hi there!");
@@ -15,9 +20,9 @@ app.get("/dog", function(req, res){
    res.send("MEOW!"); 
 });
 
-app.get("*", function(req, res){ // * gets catches all gets to undefined pages and leads them here..
+app.get("*", function(req, res){ // * catches (catch all routes) all gets to undefined pages and leads them here..
    res.send("YOU ARE A STAR!") 
-});;
+});
 
 // Tell Express to listen for requests (start server)
 
