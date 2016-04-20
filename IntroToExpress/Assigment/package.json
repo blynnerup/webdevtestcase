@@ -1,0 +1,27 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Nothing big",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blynnerup/webdevtestcase.git"
+  },
+  "keywords": [
+    "Express",
+    "NodeJS",
+    "routing"
+  ],
+  "author": "Brian Lynnerup Pedersen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blynnerup/webdevtestcase/issues"
+  },
+  "homepage": "https://github.com/blynnerup/webdevtestcase#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
