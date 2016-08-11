@@ -1,0 +1,22 @@
+{
+  "name": "restfulblogapp",
+  "version": "1.0.0",
+  "description": "Homemade blog project, to learn about RESTful routing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blynnerup/webdevtestcase.git"
+  },
+  "keywords": [
+    "REST"
+  ],
+  "author": "blynnerup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blynnerup/webdevtestcase/issues"
+  },
+  "homepage": "https://github.com/blynnerup/webdevtestcase#readme"
+}
