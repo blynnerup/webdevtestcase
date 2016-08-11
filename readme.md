@@ -4,4 +4,4 @@
 <p>Guess what...some MongoDB and Mongoose as well...because..reasons</p>
 
 <br>
-<p>In order to learn about RESTful routing, I have added a little blog project to the mix</p>
+<p>In order to learn about RESTful routing, I have added a little blog project to the mix (RESTful Routing)</p>
