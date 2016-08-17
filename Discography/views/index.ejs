@@ -1,0 +1,33 @@
+<% include ./partials/header %>
+<div class="ui main text container">
+    <div class="ui huge header">Discography</div>
+    <div class="ui top attached segment">
+    <div class="ui divided items">
+        <% artists.forEach(function(artist){ %>
+            <div class="item">
+                <div class="image">
+                    <img src="<%= artist.image %>">
+                </div>
+                <div class="content">
+                    <a class="header"><%= artist.name %></a>
+                    <div class="meta">
+                        <span><%= artist.genre %></span>
+                    </div>
+                    <div class="description">
+                        <p>
+                            <% if(artist.description.length > 100){ %>
+                                <%= artist.description.substring(0, 100) %>...
+                            <% } else { %>
+                                <%= artist.description %>
+                            <% } %>
+                        </p>
+                    </div>
+                    <div class="extra">
+                        <a class="ui right floated basic button black" href="/discography/<%= artist._id %>">Read More</a>
+                    </div>
+                </div>
+            </div>
+        <% }) %>
+    </div>
+</div>
+<% include ./partials/footer %>

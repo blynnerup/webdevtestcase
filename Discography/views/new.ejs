@@ -1,0 +1,29 @@
+<% include ./partials/header %>
+<div class="ui main text container segment">
+    <div class="ui huge header">New Band</div>
+    <form class="ui form" action="/discography" method="POST">
+        <div class="field">
+            <label>Name</label>
+            <input type="text" name="artist[name]" placeholder="Band Name">
+        </div>
+        <div class="field">
+            <label>Image</label>
+            <input type="text" name="artist[image]" placeholder="image">
+        </div>
+        <div class="field">
+            <select name="artist[genre]">
+                <option value=""></option>
+                <option value="Black Metal">Black Metal</option>
+                <option value="Death Metal">Death Metal</option>
+                <option value="Thrash Metal">Thrash Metal</option>
+            </select>
+        </div>
+        <div class="field">
+            <label>Band Description</label>
+            <textarea name="artist[description]" placeholder="description of the artist"></textarea>
+        </div>
+        <input class="ui green big basic button" type="submit">
+    </form>
+</div>
+
+<% include ./partials/footer %>>
