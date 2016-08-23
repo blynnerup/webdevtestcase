@@ -3,3 +3,5 @@
 <p>And a bit of Express.. Just to keep things messy.</p>
 <p>Guess what...some MongoDB and Mongoose as well...because..reasons</p>
 <p>In order to learn about RESTful routing, I have added a little blog project to the mix (RESTful Routing)</p>
+<hr>
+<p>Working with authentication </p>
